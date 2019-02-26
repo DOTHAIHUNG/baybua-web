@@ -1,0 +1,31 @@
+h1 {
+  color: #3783cc;
+  opacity: 0.3;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.service-2 h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  position: relative;
+  top: 68%;
+  left: 10%;
+  font-size: 24px;
+}
+
+.service-2 h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  position: relative;
+  top: 75%;
+  left: 10%;
+  font-size: 15px;
+}

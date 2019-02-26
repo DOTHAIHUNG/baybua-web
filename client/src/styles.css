@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*--------------------------------NavBar-------------------------------*/
+.navbar {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.cart-logo {
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.nav-link, .navbar-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #000 !important;
+}
+
+.navbar-nav {
+  float: right;
+  text-align: right;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.brand {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+.brand-text {
+  padding-left: 10px;
+}
+
+.brand-text a {
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+}
+
+.brand-text p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+/*------------------------------------Banner-----------------------------------*/
+.banner {
+  background-image: url('assets/img/background-banner.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-img {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.banner-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  height: auto;
+  margin-top: 200px;
+}
+
+.banner-container h1 {
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 40px;
+}
+
+.banner-container h2 {
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  height: 25%;
+  width: 100%;
+  z-index: 3;
+}
+
+.banner-content p {
+  text-align: center;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  display: block;
+  width: 80%;
+  position: relative;
+  top: 15%;
+  left: 10%;
+}
+
+/*--------------------------------About---------------------------------------------------*/
+.about {
+  background-image: url('assets/img/about-img.jpg');
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-img {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.about-container {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  height: auto;
+  margin-top: 200px;
+}
+
+.about-container h1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 80px;
+  position: relative;
+  left: 20%;
+}
+
+.about-container h2 {
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  left: 20%;
+  margin-bottom: 50px;
+}
+
+.about-container .text-about {
+  width: 65%;
+  height: 300px;
+  position: relative;
+  left: 20%;
+}
+
+.about-container .text-about p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+/*--------------------------------Services-------------------------------------*/
+.service-img1 {
+  background-image: url('assets/img/services-img/service-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+
+.service-2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.service-img2 {
+  background-image: url('assets/img/services-img/service-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+
+.service-2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+/*--------------------------------Hieu ung responsive-------------------------------------*/
+
+@media only screen and (max-width: 1050px) {
+  .navbar {
+    margin-bottom: 20px;
+  }
+
+  .cart-logo {
+    margin-right: 0;
+  }
+
+  .banner-container {
+    margin-top: 180px;
+  }
+
+  .banner-container h1 {
+    font-size: 39px;
+  }
+
+  .banner-content p {
+    font-size: 15px;
+    position: relative;
+    top: 8%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .brand {
+    margin-left: 30px;
+  }
+
+  .banner-container {
+    margin-top: 220px;
+  }
+
+  .banner-container h1 {
+    font-size: 40px;
+  }
+
+  .banner-container h2 {
+    font-size: 15px;
+  }
+
+  .banner-content p {
+    font-size: 13px;
+    position: relative;
+    top: 6%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .brand {
+    margin-left: 10px;
+  }
+
+  .nav-link, .navbar-text {
+    font-size: 10px;
+  }
+
+  .brand-text a {
+    font-size: 18px;
+  }
+
+  .brand-text p {
+    font-size: 13px;
+  }
+
+  .banner-content p {
+    font-size: 10px;
+  }
+
+  .banner-container h1 {
+    font-size: 25px;
+  }
+
+  .banner-container h2 {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .banner-content p {
+    font-size: 9px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

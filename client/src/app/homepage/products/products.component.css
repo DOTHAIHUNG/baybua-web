@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+/*.container h2 {*/
+  /*background: #0062cc;*/
+  /*color: white;*/
+  /*width: 200px;*/
+  /*font-size: 24px;*/
+  /*padding: 5px;*/
+  /*height: 40px;*/
+/*}*/
+
+.container h2::after {
+  content: '';
+  border-top: 40px solid #0062cc;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 48px;
+  top: 35px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.product-top span {
+  position: absolute;
+  right: 15px;
+  color: black;
+  background: white;
+  opacity: 0.7;
+  padding: 5px;
+  font-size: 13px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.product-bottom .fas, .product-bottom .far {
+  font-size: 10px;
+}
+
+.product-bottom h3 {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  /*font-weight: bold;*/
+}
+
+.product-bottom h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.overlay {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: 0;
+  width: 70px;
+}
+
+.product-top:hover .overlay {
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+
+.overlay .far, .overlay .fas {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin-bottom: 5%;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.overlay .btn-secondary {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
