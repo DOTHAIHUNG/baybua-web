@@ -9,7 +9,6 @@ import {BannerComponent} from './homepage/banner/banner.component';
 import {ProductsComponent} from './homepage/products/products.component';
 import {AboutUsComponent} from './homepage/about-us/about-us.component';
 import {ServicesComponent} from './homepage/services/services.component';
-import { MapComponent } from './homepage/map/map.component';
 import { FooterComponent } from './homepage/footer/footer.component';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { FooterComponent } from './homepage/footer/footer.component';
     ProductsComponent,
     AboutUsComponent,
     ServicesComponent,
-    MapComponent,
     FooterComponent
   ],
   imports: [
